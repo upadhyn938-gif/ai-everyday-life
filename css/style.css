@@ -65,3 +65,9 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+/* Make images fit nicely inside their sections */
+img {
+    max-width: 100%;
+    height: auto;
+}
