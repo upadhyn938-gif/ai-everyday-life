@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #1f4e79;
+}
+
+h2 {
+    color: #2f6690;
+}
+
+/* Paragraph styling */
+p {
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Styles for content sections */
+.content-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Styles for page navigation links */
+.page-link {
+    font-size: 18px;
+    color: #1f4e79;
+    font-weight: bold;
+}
+
+/* Unique styling for the introduction section */
+#intro-section {
+    border-left: 5px solid #1f4e79;
+}
+
+/* Unique styling for the examples section */
+#examples-section {
+    border-left: 5px solid hsl(206, 51%, 37%);
+}
+
+/* Flexbox layout for the main content */
+main {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Allow each section to share the available space */
+.content-section {
+    flex: 1;
+}
