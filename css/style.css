@@ -71,3 +71,23 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .content-section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
