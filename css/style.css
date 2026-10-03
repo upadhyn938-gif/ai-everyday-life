@@ -37,6 +37,12 @@ p {
     font-weight: bold;
 }
 
+/* Make keyboard focus visible for accessibility */
+.page-link:focus {
+    outline: 3px solid #1f4e79;
+    outline-offset: 3px;
+}
+
 /* Unique styling for the introduction section */
 #intro-section {
     border-left: 5px solid #1f4e79;
